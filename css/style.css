@@ -759,17 +759,29 @@ nav a.ativo{
     }
 
     .projeto-card{
-        flex:0 0 85%;
+        flex:0 0 88%;
     }
 
     .projetos-grid{
-        padding:10px 15% 20px 0;
+        padding:10px 6% 20px 0;
     }
 
     .carrossel-seta{
-        width:40px;
-        height:40px;
-        font-size:0.95rem;
+        position:absolute;
+        top:38%;
+        transform:translateY(-50%);
+        width:36px;
+        height:36px;
+        font-size:0.85rem;
+        z-index:2;
+    }
+
+    .carrossel-seta-anterior{
+        left:0;
+    }
+
+    .carrossel-seta-proxima{
+        right:0;
     }
 
     .modal-content{
